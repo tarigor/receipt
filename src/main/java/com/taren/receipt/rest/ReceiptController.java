@@ -7,7 +7,8 @@ import com.taren.receipt.service.impl.ConsoleOutputServiceImpl;
 import com.taren.receipt.service.impl.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -22,11 +23,12 @@ public class ReceiptController {
     @Autowired
     private ConsoleOutputServiceImpl consoleOutputService;
 
-    @GetMapping("/check/{itemId}/{itemAmount}/{discountCardId}")
+    @GetMapping("/check")
+    @ResponseBody
     public ArrayList<String> getReceipt(
-            @PathVariable("itemId") Long itemId,
-            @PathVariable("itemAmount") int itemAmount,
-            @PathVariable("discountCardId") Long discountCardId) {
+            @RequestParam(name = "itemId") Long itemId,
+            @RequestParam(name = "itemAmount") int itemAmount,
+            @RequestParam(name = "discountCardId") Long discountCardId) {
 
         ArrayList<InputItemData> inputItemData = new ArrayList<>();
         inputItemData.add(new InputItemData(productService.getProductById(itemId), itemAmount));

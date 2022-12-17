@@ -44,7 +44,7 @@ public class ConsoleOutputServiceImpl implements IConsoleOutputService {
     private ArrayList<String> getLinesWithProductList(InputData inputData, int startLine, int discountLine, int priceAndAmountLine) {
         ArrayList<String> output = new ArrayList<>();
         for (InputItemData inputItemData : inputData.getInputItemData()) {
-            float productPrice = inputItemData.getProduct().getPrice();
+            double productPrice = inputItemData.getProduct().getPrice();
             String part1 = getLineWithTwoParameters(startLine, inputItemData.getProductAmount(), inputItemData.getProduct().getProductName());
             if (inputItemData.getProductAmount() >= 5) {
                 String part2 = getLineFromProperties(discountLine);
@@ -52,9 +52,8 @@ public class ConsoleOutputServiceImpl implements IConsoleOutputService {
                 productPrice = productPrice - productPrice * 0.1f;
             }
             StringBuilder spaces = new StringBuilder();
-            for (int i = 0; i < 36 - part1.length(); i++) {
-                spaces.append(" ");
-            }
+            //for align the columns
+            spaces.append(" ".repeat(Math.max(0, 36 - part1.length())));
             output.add(part1 + spaces + getLineWithTwoParameters(priceAndAmountLine, productPrice, productPrice * inputItemData.getProductAmount()));
             totalPrice = totalPrice + productPrice * inputItemData.getProductAmount();
         }

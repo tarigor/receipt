@@ -26,6 +26,7 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.9.1'
 }
 
 tasks.named('test') {

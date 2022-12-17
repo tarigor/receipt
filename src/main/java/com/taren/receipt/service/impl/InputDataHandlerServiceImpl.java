@@ -12,8 +12,6 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class InputDataHandlerServiceImpl implements IInputDataHandlerService {
 
-    private InputData inputData;
-
     @Autowired
     private DiscountCardServiceImpl discountCardService;
 
@@ -41,11 +39,6 @@ public class InputDataHandlerServiceImpl implements IInputDataHandlerService {
             }
         }
         log.info("input data: " + inputData);
-        this.inputData = inputData;
-        return this.inputData;
-    }
-
-    public InputData getInputData() {
         return inputData;
     }
 }
