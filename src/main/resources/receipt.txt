@@ -1,0 +1,13 @@
+                 CASH RECEIPT
+               SUPERMARKET 123
+          12, MILKWAY Galaxy/ Earth
+CASHIER: F1520                   DATE: 2022/12/17
+                                 TIME: 09:03:37
+_________________________________________________
+QTY  DESCRIPTION                    PRICE   TOTAL
+5    oil(10% disc)                  $5.58  $27.90
+1    yougurt                        $2.10  $2.10
+=================================================
+TAXABLE TOT.                               $30.00
+VAT17%                                     $5.10
+TOTAL                                      $35.10

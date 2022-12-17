@@ -1,0 +1,14 @@
+2022-12-15 17:58:02,484 INFO com.taren.receipt.ReceiptApplication [main] Starting ReceiptApplication using Java 17.0.5 with PID 14488 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+2022-12-15 17:58:02,488 INFO com.taren.receipt.ReceiptApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-15 17:58:03,473 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-15 17:58:03,511 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-15 17:58:03,637 WARN org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-15 17:58:03,794 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-15 17:58:04,134 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45c9b3
+2022-12-15 17:58:04,137 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-15 17:58:04,169 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-15 17:58:04,988 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-15 17:58:05,620 INFO com.taren.receipt.ReceiptApplication [main] Started ReceiptApplication in 3.65 seconds (process running for 5.082)
+2022-12-15 17:58:05,626 INFO com.taren.receipt.service.impl.InputDataHandlerServiceImpl [main] input data: InputData(inputItemData=[InputItemData(itemId=3, itemAmount=1), InputItemData(itemId=2, itemAmount=5), InputItemData(itemId=5, itemAmount=1)], discountCardId=1234)
+2022-12-15 17:58:05,816 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-12-15 17:58:05,872 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

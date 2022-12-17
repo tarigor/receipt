@@ -1,0 +1,196 @@
+17-12-2022 08:38:48.173 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:38:48.201 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 08:38:48.266 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 08:39:11.993 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 47824 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 08:39:12.004 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 08:39:14.146 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 08:39:14.530 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 355 ms. Found 2 JPA repository interfaces.
+17-12-2022 08:39:15.850 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 08:39:15.869 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 08:39:15.871 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 08:39:15.994 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 08:39:15.995 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3760 ms
+17-12-2022 08:39:16.204 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 08:39:16.258 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 08:39:16.369 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 08:39:16.480 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 08:39:16.782 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b8b5020
+17-12-2022 08:39:16.784 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 08:39:16.818 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 08:39:17.570 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 08:39:17.579 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:39:17.976 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 08:39:18.333 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 08:39:18.344 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 8.04 seconds (process running for 10.0)
+17-12-2022 08:39:18.588 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 08:39:18.674 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 08:39:18.682 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 08:40:14.819 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17-12-2022 08:41:39.878 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:41:39.883 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 08:41:39.925 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 08:41:48.441 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 48027 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 08:41:48.451 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 08:41:49.725 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 08:41:49.856 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 120 ms. Found 2 JPA repository interfaces.
+17-12-2022 08:41:50.663 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 08:41:50.680 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 08:41:50.681 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 08:41:50.836 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 08:41:50.837 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2330 ms
+17-12-2022 08:41:51.028 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 08:41:51.071 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 08:41:51.245 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 08:41:51.377 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 08:41:51.666 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3457cc8d
+17-12-2022 08:41:51.669 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 08:41:51.706 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 08:41:52.545 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 08:41:52.555 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:41:53.041 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 08:41:53.459 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 08:41:53.470 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 5.651 seconds (process running for 8.683)
+17-12-2022 08:41:53.636 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 08:41:53.680 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 08:41:53.687 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 08:46:12.375 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17-12-2022 08:49:11.160 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:49:11.164 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 08:49:11.198 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 08:49:17.591 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 48259 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 08:49:17.594 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 08:49:18.400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 08:49:18.476 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+17-12-2022 08:49:19.116 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 08:49:19.125 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 08:49:19.126 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 08:49:19.226 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 08:49:19.227 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1530 ms
+17-12-2022 08:49:19.461 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 08:49:19.511 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 08:49:19.641 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 08:49:19.766 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 08:49:20.004 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@231b35fb
+17-12-2022 08:49:20.006 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 08:49:20.036 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 08:49:20.743 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 08:49:20.753 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:49:21.157 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 08:49:21.551 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 08:49:21.561 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 4.636 seconds (process running for 5.972)
+17-12-2022 08:49:21.692 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 08:49:21.717 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 08:49:21.723 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 08:49:34.671 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17-12-2022 08:53:22.855 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:53:22.865 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 08:53:22.909 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 08:53:32.227 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 48472 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 08:53:32.231 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 08:53:32.965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 08:53:33.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+17-12-2022 08:53:33.636 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 08:53:33.646 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 08:53:33.647 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 08:53:33.739 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 08:53:33.740 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1442 ms
+17-12-2022 08:53:33.918 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 08:53:33.982 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 08:53:34.101 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 08:53:34.215 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 08:53:34.524 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51888019
+17-12-2022 08:53:34.528 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 08:53:34.561 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 08:53:35.330 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 08:53:35.337 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:53:35.738 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 08:53:36.152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 08:53:36.163 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 4.845 seconds (process running for 6.267)
+17-12-2022 08:53:36.316 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 08:53:36.369 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 08:53:36.421 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 08:53:42.638 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17-12-2022 08:54:42.153 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:54:42.157 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 08:54:42.191 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 08:54:48.988 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 48646 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 08:54:48.992 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 08:54:49.834 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 08:54:49.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+17-12-2022 08:54:50.432 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 08:54:50.441 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 08:54:50.442 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 08:54:50.520 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 08:54:50.521 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1431 ms
+17-12-2022 08:54:50.723 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 08:54:50.786 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 08:54:50.929 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 08:54:51.071 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 08:54:51.365 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3820cfe
+17-12-2022 08:54:51.367 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 08:54:51.410 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 08:54:52.277 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 08:54:52.285 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:54:52.755 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 08:54:53.144 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 08:54:53.159 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 4.877 seconds (process running for 6.532)
+17-12-2022 08:54:53.292 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 08:54:53.317 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 08:54:53.323 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 08:54:58.649 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17-12-2022 08:56:29.944 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:56:29.951 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 08:56:29.983 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 08:56:35.710 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 48835 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 08:56:35.716 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 08:56:36.448 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 08:56:36.515 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+17-12-2022 08:56:37.096 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 08:56:37.111 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 08:56:37.112 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 08:56:37.200 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 08:56:37.201 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1428 ms
+17-12-2022 08:56:37.388 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 08:56:37.456 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 08:56:37.640 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 08:56:37.732 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 08:56:37.984 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3820cfe
+17-12-2022 08:56:37.986 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 08:56:38.015 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 08:56:38.773 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 08:56:38.781 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 08:56:39.268 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 08:56:39.676 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 08:56:39.686 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 4.624 seconds (process running for 5.976)
+17-12-2022 08:56:39.830 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 08:56:39.856 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 08:56:39.862 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 08:56:44.906 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17-12-2022 09:03:17.545 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 09:03:17.569 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2022 09:03:17.644 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2022 09:03:27.424 [main] INFO  c.taren.receipt.ReceiptApplication.logStarting - Starting ReceiptApplication using Java 17.0.5 with PID 49262 (/home/igor/Documents/project/receipt/build/classes/java/main started by igor in /home/igor/Documents/project/receipt)
+17-12-2022 09:03:27.433 [main] INFO  c.taren.receipt.ReceiptApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2022 09:03:29.450 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2022 09:03:29.551 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+17-12-2022 09:03:30.502 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-12-2022 09:03:30.521 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2022 09:03:30.522 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.1]
+17-12-2022 09:03:30.674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2022 09:03:30.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3010 ms
+17-12-2022 09:03:30.954 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2022 09:03:31.073 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.5.Final
+17-12-2022 09:03:31.259 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+17-12-2022 09:03:31.598 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2022 09:03:32.152 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51888019
+17-12-2022 09:03:32.154 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2022 09:03:32.223 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+17-12-2022 09:03:34.049 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2022 09:03:34.061 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2022 09:03:35.052 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2022 09:03:36.251 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+17-12-2022 09:03:36.271 [main] INFO  c.taren.receipt.ReceiptApplication.logStarted - Started ReceiptApplication in 9.746 seconds (process running for 12.058)
+17-12-2022 09:03:37.121 [main] ERROR c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - the product with id->31 it was not found
+17-12-2022 09:03:37.351 [main] INFO  c.t.r.s.i.InputDataHandlerServiceImpl.loadInputData - input data: InputData(inputItemData=[InputItemData(product=Product(id=2, productName=oil, price=6.2, isAuctionItem=true), productAmount=5), InputItemData(product=Product(id=5, productName=yougurt, price=2.1, isAuctionItem=false), productAmount=1)], discountCard=DiscountCard(id=2, discount=15))
+17-12-2022 09:03:37.370 [main] INFO  c.t.r.service.impl.FileServiceImpl.writeFile - Successfully wrote to the file.
+17-12-2022 09:03:53.987 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
