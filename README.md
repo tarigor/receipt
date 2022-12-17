@@ -1,4 +1,4 @@
-# Receipt Composer
+# Receipt Creator
 
 ### Task Description
 Разработать консольное приложение, реализующее функционал формирования
